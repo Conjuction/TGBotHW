@@ -1,9 +1,9 @@
-package pages;
+package demoqa.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import pages.components.CalendarComponent;
-import pages.components.RegistrationResultModal;
+import demoqa.pages.components.CalendarComponent;
+import demoqa.pages.components.RegistrationResultModal;
 
 import java.io.File;
 

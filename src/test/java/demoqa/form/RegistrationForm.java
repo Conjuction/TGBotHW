@@ -1,4 +1,4 @@
-package form;
+package demoqa.form;
 
 import io.qameta.allure.Owner;
 import io.qameta.allure.Severity;

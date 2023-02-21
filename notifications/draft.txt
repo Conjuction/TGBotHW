@@ -1,0 +1,7 @@
+username: @Rerevgge_bot
+token: 6263669087:AAFwJa8il79jeTZ-BIEmRPfHPbXj9k_u3lw
+chat id: -1001683245190
+
+curl -X POST  -H 'Content-Type: application/json' -d '{"chat_id": "-1001683245190", "text": "This is a test from Dimon", "disable_notification": true}' https://api.telegram.org/bot6263669087:AAFwJa8il79jeTZ-BIEmRPfHPbXj9k_u3lw/sendMessage
+
+java "-DconfigFile=notifications/config.json" -jar notifications/allure-notifications-4.2.1.jar
